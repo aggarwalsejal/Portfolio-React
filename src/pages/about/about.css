@@ -53,3 +53,9 @@
     height: 1px;
     background-color: var(--text-color);
 }
+
+.separator{
+    border-top: 1px solid var(--border-color);
+    max-width: 40%;
+    margin: 72px auto 56px;
+}

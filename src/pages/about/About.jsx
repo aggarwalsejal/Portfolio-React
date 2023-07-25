@@ -29,6 +29,7 @@ const About = () => {
           </div>
         </div>
       </section>
+      <div className='separator'></div>
     </main>
   )
 }
