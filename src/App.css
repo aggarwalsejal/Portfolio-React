@@ -84,11 +84,12 @@ img{
   max-width: 100%;
 }
 
-/*=============== GOOGLE FONTS =================*/
+/*=============== RESUABLE CSS =================*/
 
 .container{
   max-width: 1140px;
   margin-inline: auto;
+  padding-inline: 15px;
 }
 
 .grid{
