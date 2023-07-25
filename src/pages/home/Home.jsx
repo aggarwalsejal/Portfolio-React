@@ -2,10 +2,11 @@ import React from 'react'
 import Profile from "../../assets/home.jpg"
 import { Link } from 'react-router-dom';
 import {FaArrowRight} from "react-icons/fa";
+import "./home.css"
 
 const Home = () => {
   return (
-    <section className="Home section grid">
+    <section className="home section grid">
       <img src={Profile} alt="" className="home__img" />
       <div className="home__content">
         <div className="home__data">
@@ -24,7 +25,7 @@ const Home = () => {
         </div>
       </div>
 
-
+<div className="color__block"></div>
     </section>
   )
 }
