@@ -202,6 +202,172 @@ export const skills = [
     percentage: '45',
   },
 ];
+export const portfolio = [
+  {
+    id: 1,
+    img: Work1,
+    title: 'Photo Editing',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Photo',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Adobe Photoshop',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'www.dribble.com',
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    img: Work2,
+    title: 'Website Design',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Website',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React JS',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'www.dribble.com',
+      },
+    ],
+  },
+
+  {
+    id: 3,
+    img: Work3,
+    title: 'Video Editing',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Video',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Adobe Premium',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'www.dribble.com',
+      },
+    ],
+  },
+
+  {
+    id: 4,
+    img: Work4,
+    title: 'Video Editing',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Video',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Adobe Premium',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'www.dribble.com',
+      },
+    ],
+  },
+
+  {
+    id: 5,
+    img: Work5,
+    title: 'Landing Page',
+    details: [
+      {
+        title: 'Project : ',
+        desc: 'Website',
+      },
+      {
+        title: 'Client : ',
+        desc: 'Dribble',
+      },
+      {
+        title: 'Language : ',
+        desc: 'React JS, Node JS',
+      },
+      {
+        title: 'Preview : ',
+        desc: 'www.dribble.com',
+      },
+    ],
+  },
+
+  {
+    id: 6,
+    img: Work6,
+    title: 'Photo Editing',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Photo',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Client : ',
+        desc: 'Dribble',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Adobe Photoshop',
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: 'www.dibble.com',
+      },
+    ],
+  },
+];
+
 
 export const themes = [
   {
