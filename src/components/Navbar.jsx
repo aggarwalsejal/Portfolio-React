@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { links } from '../data';
 import "./navbar.css"
 
+
 const Navbar =() => {
     const[showMenu, setShowMenu]=useState(false);
   return (
@@ -27,7 +28,7 @@ const Navbar =() => {
             <span></span>
             <span></span>
             <span></span>
-            <span></span>
+        
         </div>
         </div>
     </nav>

@@ -20,7 +20,7 @@ const About = () => {
               Personal Information
             </h3>
             <ul className='info__list grid'><Info /></ul>
-            <a href='' className='button'>
+            <a href={CV} download='' className='button'>
               Download CV{' '}
               <span className='button__icon'>
                 <FaDownload />
@@ -46,14 +46,14 @@ const About = () => {
         </h3>
         <div className='resume__container grid'>
           <div className='resume__data'>
-            {resume.map((val)=>{
+            {resume.map((val) => {
               if(val.category==='experience'){
                 return <ResumeItem key={val.id} {...val} />
               }
             })}
           </div>
           <div className='resume__data'>
-            {resume.map((val)=>{
+            {resume.map((val) =>{
               if(val.category==='education'){
                 return <ResumeItem key={val.id} {...val} />
               }
