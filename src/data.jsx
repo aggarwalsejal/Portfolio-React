@@ -73,7 +73,7 @@ export const personalInfo = [
   {
     id: 3,
     title: 'Age : ',
-    description: '23 Years',
+    description: '23',
   },
 
   {
@@ -84,30 +84,24 @@ export const personalInfo = [
 
   {
     id: 5,
-    title: 'Freelance : ',
-    description: 'Available',
-  },
-
-  {
-    id: 6,
     title: 'Address : ',
     description: 'Near Shiv Mandir, Sikandrabad, Dist. Bulandshahr, UP, 203205',
   },
 
   {
-    id: 7,
+    id: 6,
     title: 'Phone : ',
-    description: '8384855065',
+    description: '+91 8384855065',
+  },
+
+  {
+    id: 7,
+    title: 'Email : ',
+    description: 'sejalaggarwal0@gmail.com',
   },
 
   {
     id: 8,
-    title: 'Email : ',
-    description: 'sejalaggarwal1711@gmail.com',
-  },
-
-  {
-    id: 10,
     title: 'Langages : ',
     description: 'Hindi, English',
   },
@@ -117,7 +111,7 @@ export const stats = [
   {
     id: 1,
     no: '1.5',
-    title: 'Years of <br /> Experience',
+    title: 'Years of <br /> Experience in Cvent',
   },
 
   {
@@ -138,18 +132,42 @@ export const resume = [
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2022 - PRESENT',
+    year: 'Jul 2022 - PRESENT',
     title: 'Application Engineer',
-    desc: 'Have contributed to the project and bux fixing',
+    desc: '•Have received two Rockstar Awards for best performance in Cvent. •Addition to that, get a 5+ exceptional rating on the client ticket on providing quick resolution/workaround for solving the issues very quickly. •Have contributed to the project and bux fixing of the application. •Monitoring tools such as Datadogs, NewRelic, and Splunk were used to monitor production, troubleshoot 80+ bugs, and suggest code fixes. •Created DD synthesis to track performance of website and determine where the alert is coming from in order to easily diagnose the error. •Excelled at troubleshooting customer-specific issues by providing technical expertise and resolution to 700+ client tickets, as well as providing customer-specific data and reports using SQL, Postgres, and Couchbase data storages, as well as Code Level Troubleshooting to identify bugs and potential issues in the applicationʼs smooth operation. •Actively participated in the team building activities as well.'
+  },
+  {
+    id: 2,
+    category: 'experience',
+    icon: <FaBriefcase />,
+    year: 'Jan 2022 - Jun 2022',
+    title: 'Application Engineer Intern',
+    desc: '•Worked on Datadog, Elastic Search, NewRelic, Splunk, and Couchbase •Have expertise in Advanced SQL'
   },
 
   {
-    id: 2,
+    id: 3,
     category: 'education',
     icon: <FaGraduationCap />,
     year: '2018-2022',
-    title: 'Engineering Degree <span> Noida Institute of Engineering and Technology, Greater Noids </span>',
-    desc: 'Have learnt DSA and prepared few projects on ML',
+    title: 'Engineering Degree <span> Noida Institute of Engineering and Technology, Greater Noida </span>',
+    desc: '•Have good understanding of the Data Structure and Programming. •Have learnt DSA and prepared few projects on Machine Learning.',
+  },
+  {
+    id: 4,
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '2017-2018',
+    title: '12th - Divine Educational Institute',
+    
+  },
+  {
+    id: 5,
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '2015-2016',
+    title: '10th - Divine Educational Institute',
+    
   }
 ];
 
@@ -157,30 +175,30 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '75',
   },
 
   {
     id: 2,
-    title: 'Javascript',
+    title: 'Css',
     percentage: '89',
   },
 
   {
     id: 3,
-    title: 'Css',
-    percentage: '70',
+    title: 'Javascript',
+    percentage: '80',
   },
 
   {
     id: 4,
-    title: 'Php',
-    percentage: '66',
+    title: 'React',
+    percentage: '90',
   },
 
   {
     id: 5,
-    title: 'Wordpress',
+    title: 'Bootstrap',
     percentage: '95',
   },
 
@@ -193,12 +211,12 @@ export const skills = [
   {
     id: 7,
     title: 'Angular',
-    percentage: '65',
+    percentage: '50',
   },
 
   {
     id: 8,
-    title: 'React',
+    title: 'Next.js',
     percentage: '45',
   },
 ];
@@ -206,135 +224,88 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Library Management System',
     details: [
-      {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
+   
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Desc : ',
+        desc: 'It is an application used to store the data for the library management using the Jframe work•Availability of the book can be checked •Administrator can check who has the book handy after the due date and fine can also be imposed depending on the number of due days',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
+        title: 'Technology Used : ',
+        desc: 'Jetbeans',
+      }
     ],
   },
 
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Textutils',
     details: [
       {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Website',
-      },
-      {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Desc : ',
+        desc: 'It is a website where we can play with the words, i.e. reverse, copy, clear, bold, italics, underline, lower and upper conversion •It would give us the functionality to count the words. •It has a dark and light theme available •Each function after completion shows an alert',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
+        title: 'Technology Used : ',
         desc: 'React JS',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
+      }
     ],
   },
 
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'News App',
     details: [
       {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
-      },
-      {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Desc : ',
+        desc: 'This is a news website where we can find the day-to-day updates on different categories like science, business, entertainment, technology etc. •It was built with the help of a NEWS API call. Have embedded that api in my website •Have loading spinner and infinite scroll bar added •With the news, we can also see the author and resource of that news',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
+        title: 'Technology Used : ',
+        desc: 'React JS',
+      }
     ],
   },
 
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'E-Notes',
     details: [
       {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
-      },
-      {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Desc : ',
+        desc: 'This is a complete MERN based project •Have created an e-notes platform where we can store all our day-to-day notes •Have created APIs using thunder client •Deletion, update and addition of notes is available',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
-      },
+        title: 'Technology Used : ',
+        desc: 'React JS',
+      }
     ],
   },
 
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'MS Excel Clone',
     details: [
       {
-        title: 'Project : ',
-        desc: 'Website',
+        title: 'Desc : ',
+        desc: 'This is an Excel application which has the feature liken open, save, cut, paste and copy. Various Formulas can be evaluated where values are present in different cells. Cycle detection in the formaula leading to create dependency. New open save fuctionality is added.',
       },
       {
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
-        title: 'Language : ',
-        desc: 'React JS, Node JS',
-      },
-      {
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: 'Technology Used : ',
+        desc: 'Javascript, HTML, CSS',
       },
     ],
   },
@@ -342,28 +313,18 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: 'ML based Loan Underwriting System',
     details: [
       {
-        icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Desc : ',
+        desc: 'It helps in detecting the person eligibility of getting the loan. It works on the creteria whetehr the perosn is married, employment, number of earing members in family, credit score, owns a vehicle and property. On the basis of these certain input, it would predict whether to provide the loan or not',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
-      },
-      {
-        icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dibble.com',
-      },
+        title: 'Technology Used : ',
+        desc: 'Machine Learning',
+      }
     ],
   },
 ];

@@ -40,13 +40,13 @@ const Contact = () => {
         </div>
         <div className='contact__socials'>
           <a href='https://facebook.com' className='contact__social-link'>
-            <FaFacebookF />
+            <FaFacebookF className='info__icon'/>
           </a>
           <a href='https://twitter.com' className='contact__social-link'>
-            <FaTwitter />
+            <FaTwitter className='info__icon'/>
           </a>
           <a href='https://youtube.com' className='contact__social-link'>
-            <FaYoutube />
+            <FaYoutube className='info__icon'/>
           </a>
         </div>
       </div>
