@@ -1,82 +1,122 @@
-import React from 'react'
-import {FaEnvelopeOpen,
-FaPhoneSquareAlt,
-FaFacebookF,
-FaTwitter,
-FaYoutube,
-FaDribble,} from 'react-icons/fa';
+import React from "react";
+import {
+  FaPhoneSquareAlt,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa";
+import { AiOutlineMail, AiOutlineFacebook, AiOutlineGithub,AiOutlineLinkedin } from "react-icons/ai";
 
-import {FiSend} from 'react-icons/fi';
-import "./contact.css"
+import { FiSend } from "react-icons/fi";
+import "./contact.css";
 
 const Contact = () => {
   return (
-   <section className='contact section'>
-    <h2 className='section__title'>
-      Get In <span>Touch</span>
-    </h2>
-    <div className='contact__container container grid'>
-      <div className='contact_data'>
-        <h3 className='contact__title'>
-          Don't be Shy !
-        </h3>
-        <p className='contact__descriptiom'>Feel free to get in touch with me. I am always open to
-        discussing new Projects, creative ideas or opportunities to be part of your visions.</p>
-        <div className='contact__info'>
-          <div className='info__item'>
-            <FaPhoneSquareAlt className='info__icon' />
-            <div>
-              <span className='info__title'>Mail me</span>
-              <h3 className='info__desc'>sejalaggarwal1711@gmail.com</h3>
+    <section className="contact section">
+      <h2 className="section__title">
+        Get In <span>Touch</span>
+      </h2>
+      <div className="contact__container container grid">
+        <div className="contact__data">
+          <h3 className="contact__title">Don't be Shy !</h3>
+          <p className="contact__descriptiom">
+            Feel free to get in touch with me. I am always open to discuss
+            new Projects, creative ideas or opportunities and would like to be a part of your
+            visions.
+          </p>
+          <div className="contact__info">
+            <div className="info__item">
+              <AiOutlineMail className="info__icon" />
+              <div>
+                <span className="info__title">Mail me</span>
+                <h3 className="info__desc">sejalaggarwal0@gmail.com</h3>
+              </div>
+            </div>
+            <div className="info__item">
+              <FaPhoneSquareAlt className="info__icon" />
+              <div>
+                <span className="info__title">Call me</span>
+                <h3 className="info__desc">+91 8384855065</h3>
+              </div>
             </div>
           </div>
-          <div className='info__item'>
-            <FaPhoneSquareAlt className='info__icon' />
-            <div>
-              <span className='info__title'>Call me</span>
-              <h3 className='info__desc'>+91 8384855065</h3>
+          <div className="contact__socials">
+            <a
+              href="https://www.facebook.com/sejal.aggarwal.1711/"
+              className="contact__social-link"
+            >
+              <AiOutlineFacebook />
+            </a>
+            <a
+              href="https://github.com/sejal175"
+              className="contact__social-link"
+            >
+              <AiOutlineGithub className="info__icon" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/sejal-aggarwal1711/"
+              className="contact__social-link"
+            >
+              <AiOutlineLinkedin className="info__icon" />
+            </a>
+            
+            <a
+              href="https://twitter.com/SejalAggarwal7"
+              className="contact__social-link"
+            >
+              <FaTwitter className="info__icon" />
+            </a>
+            <a
+              href="https://www.youtube.com/@sejalaggarwal1711"
+              className="contact__social-link"
+            >
+              <FaYoutube />
+            </a>
+          </div>
+        </div>
+        <form className="contact__form" action="https://formsubmit.co/bef77d7689ff469f972de5ef28701bc3" method="POST">
+          <div className="form__input-group">
+            <div className="form__input-div">
+              <input
+                type="text"
+                placeholder="Your Name"
+                className="form__control"
+                name="name"
+              />
+            </div>
+            <div className="form__input-div">
+              <input
+                type="email"
+                placeholder="Your Email"
+                className="form__control"
+                name="email"
+              />
+            </div>
+            <div className="form__input-div">
+              <input
+                type="text"
+                placeholder="Your Subject"
+                className="form__control"
+                name="subject"
+              />
             </div>
           </div>
-        </div>
-        <div className='contact__socials'>
-          <a href='https://facebook.com' className='contact__social-link'>
-            <FaFacebookF className='info__icon'/>
-          </a>
-          <a href='https://twitter.com' className='contact__social-link'>
-            <FaTwitter className='info__icon'/>
-          </a>
-          <a href='https://youtube.com' className='contact__social-link'>
-            <FaYoutube className='info__icon'/>
-          </a>
-        </div>
-      </div>
-      <form className='contact__form'>
-        <div className='form__input-group'>
-          <div className='form__input-div'>
-            <input type='text' placeholder='Your Name' className='form__control' />
+          <div className="form__input-div">
+            <textarea
+              placeholder="Your Message"
+              className="form__control textarea"
+              name="message"
+            ></textarea>
           </div>
-          <div className='form__input-div'>
-            <input type='email' placeholder='Your Email' className='form__control' />
-          </div>
-          <div className='form__input-div'>
-            <input type='text' placeholder='Your Subject' className='form__control' />
-          </div>
-        </div>
-        <div className='form__input-div'>
-           <textarea placeholder='Your Message' className='form__control textarea'>
-
-           </textarea>
-          </div>
-          <button className='button'>
+          <button className="button">
             Send Message
-            <span className='button__icon contact__button-icon'>
+            <span className="button__icon contact__button-icon" send=''>
               <FiSend />
             </span>
           </button>
-      </form>
-    </div>
-   </section>
-  )
-}
+        </form>
+      </div>
+    </section>
+  );
+};
 
-export default Contact
+export default Contact;

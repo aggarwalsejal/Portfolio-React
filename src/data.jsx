@@ -7,7 +7,8 @@ import {
   FaGraduationCap,
   FaCode,
 } from 'react-icons/fa';
-import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+import {  FiUser, FiSend } from 'react-icons/fi';
+import { AiOutlineLink } from 'react-icons/ai'
 
 import Work1 from './assets/project-1.jpeg';
 import Work2 from './assets/project-2.jpg';
@@ -125,6 +126,11 @@ export const stats = [
     no: '2',
     title: ' Awards <br /> Won - ROCKSTAR Award(CVENT)',
   },
+  {
+    id: 4,
+    no: '500+',
+    title: ' Data Structure & Algorithm Questions',
+  },
 ];
 
 export const resume = [
@@ -236,7 +242,12 @@ export const portfolio = [
         icon: <FaCode />,
         title: 'Technology Used : ',
         desc: 'Jetbeans',
-      }
+      },
+      {
+        icon: <AiOutlineLink />,
+        title: 'Github : ',
+        desc: <a href="https://github.com/sejal175/Library-Management-System"><FiSend /></a>,
+      },
     ],
   },
 
@@ -254,6 +265,16 @@ export const portfolio = [
         icon: <FaCode />,
         title: 'Technology Used : ',
         desc: 'React JS',
+      },
+      {
+        icon: <AiOutlineLink />,
+        title: 'Github : ',
+        desc: <a href="https://github.com/sejal175/Textutils-React"><FiSend /></a>,
+      },
+      {
+        icon: <AiOutlineLink />,
+        title: 'Website : ',
+        desc: <a href="https://textutils.aggarwalsejal.com/"><FiSend /></a>,
       }
     ],
   },
@@ -272,7 +293,13 @@ export const portfolio = [
         icon: <FaCode />,
         title: 'Technology Used : ',
         desc: 'React JS',
-      }
+      },
+      {
+        icon: <AiOutlineLink />,
+        title: 'Github : ',
+        desc: <a href="https://github.com/sejal175/Newsapp-react"><FiSend /></a>,
+      },
+      
     ],
   },
 
@@ -290,6 +317,16 @@ export const portfolio = [
         icon: <FaCode />,
         title: 'Technology Used : ',
         desc: 'React JS',
+      },
+      {
+        icon: <AiOutlineLink />,
+        title: 'Github : ',
+        desc: <a href="https://github.com/sejal175/ENotes-React"><FiSend /></a>,
+      },
+      {
+        icon: <AiOutlineLink />,
+        title: 'Website : ',
+        desc: <a href="https://enotes-ui.aggarwalsejal.com/"><FiSend /></a>,
       }
     ],
   },
@@ -307,23 +344,43 @@ export const portfolio = [
         title: 'Technology Used : ',
         desc: 'Javascript, HTML, CSS',
       },
+      {
+        icon: <AiOutlineLink />,
+        title: 'Github : ',
+        desc: <a href="https://github.com/sejal175/MS-Excel-Clone"><FiSend /></a>,
+      },
+      {
+        icon: <AiOutlineLink />,
+        title: 'Website : ',
+        desc: <a href="https://ms-excel-l4f3.onrender.com"><FiSend /></a>,
+      }
     ],
   },
 
   {
     id: 6,
     img: Work6,
-    title: 'ML based Loan Underwriting System',
+    title: 'Camera App',
     details: [
       {
         icon: <FiUser />,
         title: 'Desc : ',
-        desc: 'It helps in detecting the person eligibility of getting the loan. It works on the creteria whetehr the perosn is married, employment, number of earing members in family, credit score, owns a vehicle and property. On the basis of these certain input, it would predict whether to provide the loan or not',
+        desc: 't has functionalities such as Zoom In, Zoom Out, & Filters •Flexibility to Download and Delete Photos on the fly'
       },
       {
         icon: <FaCode />,
         title: 'Technology Used : ',
-        desc: 'Machine Learning',
+        desc: 'Javascript, HTML, CSS, BOM, DOM, IndexedDB',
+      },
+      {
+        icon: <AiOutlineLink />,
+        title: 'Github : ',
+        desc: <a href="https://github.com/sejal175/Camera-App"><FiSend /></a>,
+      },
+      {
+        icon: <AiOutlineLink />,
+        title: 'Website : ',
+        desc: <a href="https://camera.aggarwalsejal.com/"><FiSend /></a>,
       }
     ],
   },
