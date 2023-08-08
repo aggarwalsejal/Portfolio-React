@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Portfolio-React/static/css/main.8f0b842f.css",
+    "main.js": "/Portfolio-React/static/js/main.941827fb.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Portfolio-React/static/js/787.1ed0c42c.chunk.js",
+    "static/media/project-6.jpg": "/Portfolio-React/static/media/project-6.e7af3428c7438cc8397b.jpg",
+    "static/media/project-3.jpeg": "/Portfolio-React/static/media/project-3.044048328e1965490ba9.jpeg",
+    "static/media/project-1.jpeg": "/Portfolio-React/static/media/project-1.9b49314a9975b0217efe.jpeg",
+    "static/media/project-5.jpg": "/Portfolio-React/static/media/project-5.1c8eaddf680746d93a19.jpg",
+    "static/media/project-2.jpg": "/Portfolio-React/static/media/project-2.111bd4726ee14b410ef9.jpg",
+    "static/media/project-4.jpeg": "/Portfolio-React/static/media/project-4.06a027052eb3a654d91f.jpeg",
+    "static/media/home.jpg": "/Portfolio-React/static/media/home.d8e4e128bec4db15cd40.jpg",
+    "static/media/SejalAggarwalResume.pdf": "/Portfolio-React/static/media/SejalAggarwalResume.9a325be74132a5d6613f.pdf",
+    "static/media/close.svg": "/Portfolio-React/static/media/close.5bec4f69e1bbfff50fdfacd4eaff052a.svg",
+    "index.html": "/Portfolio-React/index.html",
+    "main.8f0b842f.css.map": "/Portfolio-React/static/css/main.8f0b842f.css.map",
+    "main.941827fb.js.map": "/Portfolio-React/static/js/main.941827fb.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Portfolio-React/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f0b842f.css",
+    "static/js/main.941827fb.js"
+  ]
+}
