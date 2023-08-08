@@ -118,17 +118,17 @@ export const stats = [
   {
     id: 2,
     no: "6+",
-    title: "Completed few React Projects and MERN Projects",
+    title: "Completed React and MERN Projects",
   },
 
   {
     id: 3,
     no: "2",
-    title: " Awards <br /> Won - ROCKSTAR Award(CVENT)",
+    title: "ROCKSTAR Award (CVENT)",
   },
   {
     id: 4,
-    no: "500+",
+    no: "530+",
     title: " Data Structure & Algorithm Questions",
   },
 ];
@@ -158,7 +158,7 @@ export const resume = [
     year: "2018-2022",
     title:
       "Engineering Degree <span> Noida Institute of Engineering and Technology, Greater Noida </span>",
-    desc: "•Have good understanding of the Data Structure and Programming. •Have learnt DSA and prepared few projects on Machine Learning.",
+    desc: "•Have good understanding of the Data Structure and Programming. •Have learnt DSA and completed projects on Machine Learning.",
   },
   {
     id: 4,
@@ -378,7 +378,7 @@ export const portfolio = [
         icon: <AiOutlineLink />,
         title: "Website : ",
         desc: (
-          <a href="https://ms-excel-l4f3.onrender.com">
+          <a href="https://ms-excel.aggarwalsejal.com/">
             <FiSend />
           </a>
         ),

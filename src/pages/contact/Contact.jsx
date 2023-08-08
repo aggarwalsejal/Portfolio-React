@@ -41,39 +41,39 @@ const Contact = () => {
           </div>
           <div className="contact__socials">
             <a
-              href="https://www.facebook.com/sejal.aggarwal.1711/"
+              href="https://www.facebook.com/aggarwalsejal/"
               className="contact__social-link"
             >
               <AiOutlineFacebook />
             </a>
             <a
-              href="https://github.com/sejal175"
+              href="https://github.com/aggarwalsejal"
               className="contact__social-link"
             >
               <AiOutlineGithub className="info__icon" />
             </a>
             <a
-              href="https://www.linkedin.com/in/sejal-aggarwal1711/"
+              href="https://www.linkedin.com/in/aggarwalsejal/"
               className="contact__social-link"
             >
               <AiOutlineLinkedin className="info__icon" />
             </a>
             
             <a
-              href="https://twitter.com/SejalAggarwal7"
+              href="https://twitter.com/aggarwalsejal0"
               className="contact__social-link"
             >
               <FaTwitter className="info__icon" />
             </a>
             <a
-              href="https://www.youtube.com/@sejalaggarwal1711"
+              href="https://www.youtube.com/@aggarwalsejal"
               className="contact__social-link"
             >
               <FaYoutube />
             </a>
           </div>
         </div>
-        <form className="contact__form" action="https://formsubmit.co/bef77d7689ff469f972de5ef28701bc3" method="POST">
+        <form className="contact__form" action="https://formsubmit.co/sejalaggarwal0@gmail.com" method="POST">
           <div className="form__input-group">
             <div className="form__input-div">
               <input

@@ -55,3 +55,7 @@
   left: -83%;
   transform: rotate(-15deg);
 }
+
+p {
+  white-space: pre-line;
+} 
