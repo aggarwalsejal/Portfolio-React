@@ -81,6 +81,7 @@ const Contact = () => {
                 placeholder="Your Name"
                 className="form__control"
                 name="name"
+                required
               />
             </div>
             <div className="form__input-div">
@@ -89,6 +90,7 @@ const Contact = () => {
                 placeholder="Your Email"
                 className="form__control"
                 name="email"
+                required
               />
             </div>
             <div className="form__input-div">
@@ -105,6 +107,7 @@ const Contact = () => {
               placeholder="Your Message"
               className="form__control textarea"
               name="message"
+              required
             ></textarea>
           </div>
           <button className="button">
