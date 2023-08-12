@@ -3,7 +3,8 @@ import Profile from "../../assets/home.jpg"
 import { Link } from 'react-router-dom';
 import {FaArrowRight} from "react-icons/fa";
 import "./home.css"
-const str = "I'm a React based Website Developer. Innovative and deadline-driven developer, Codes are more than passion for me. \n I love to solve things with my problem solving skill. I like to do competitive programming. I have learnt Java and C and each day I am full of energy to learn and code new problems."
+const str = "As a React-based Website Developer, I thrive on blending innovation with a deadline-oriented approach. Codes aren't just a passion for me; they're a means of artistic expression through technology. \n My adept problem-solving skills drive me to tackle challenges with enthusiasm, while my penchant for competitive programming fuels my continuous growth. Proficient in Java and C, I embrace each day with boundless energy, eager to conquer fresh coding conundrums and expand my skills."
+
 const Home = () => {
   return (
     <section className="home section grid">
