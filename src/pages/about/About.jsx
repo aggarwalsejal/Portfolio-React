@@ -13,23 +13,17 @@ const About = () => {
       <section className='about'>
         <h2 className='section__title'>
           About <span>Me</span>
-        </h2>
-        <div className='about__container grid'>
-          <div className='about__info'>
-            <h3 className='section__subtitle'>
-              Personal Information
-            </h3>
-            <ul className='info__list grid'><Info /></ul>
-            <a href={CV} download='' className='button'>
+          <a href={CV} download='' className='button'>
               Download CV{' '}
-              <span className='button__icon'>
+              <div className='button__icon'>
                 <FaDownload />
-              </span>
+              </div>
             </a>
-          </div>
+        </h2>
+       
           <div className="stats grid">
             <Stats />
-          </div>
+       
         </div>
       </section>
       <div className='separator'></div>
