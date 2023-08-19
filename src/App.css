@@ -155,7 +155,7 @@ img{
 .button__icon{
   background-color: var(--first-color);
   position: absolute;
-  inset-block: -2px;
+  inset-block: -6px;
   right: 0;
   width: 55px;
   border-radius: 50%;
