@@ -58,61 +58,12 @@ export const links = [
   },
 ];
 
-export const personalInfo = [
-  {
-    id: 1,
-    title: "First Name : ",
-    description: "Sejal",
-  },
-
-  {
-    id: 2,
-    title: "Last Name : ",
-    description: "Aggarwal",
-  },
-
-  {
-    id: 3,
-    title: "Age : ",
-    description: "23",
-  },
-
-  {
-    id: 4,
-    title: "Nationality : ",
-    description: "Indian",
-  },
-
-  {
-    id: 5,
-    title: "Address : ",
-    description: "Near Shiv Mandir, Sikandrabad, Dist. Bulandshahr, UP, 203205",
-  },
-
-  {
-    id: 6,
-    title: "Phone : ",
-    description: "+91 8384855065",
-  },
-
-  {
-    id: 7,
-    title: "Email : ",
-    description: "sejalaggarwal0@gmail.com",
-  },
-
-  {
-    id: 8,
-    title: "Langages : ",
-    description: "Hindi, English",
-  },
-];
 
 export const stats = [
   {
     id: 1,
     no: "1.5",
-    title: "Years of <br /> Experience in Cvent",
+    title: "Years of Experience in Cvent",
   },
 
   {
