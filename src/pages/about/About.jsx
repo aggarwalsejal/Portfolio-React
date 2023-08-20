@@ -11,7 +11,7 @@ const About = () => {
     <main className='section container'>
       <section className='about'>
         <h2 className='section__title'>
-          About <span>Me</span>
+          About <span>Me </span>
           <a href={CV} download='' className='button'>
               Download CV{' '}
               <div className='button__icon'>
