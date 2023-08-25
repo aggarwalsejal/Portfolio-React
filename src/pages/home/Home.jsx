@@ -3,7 +3,7 @@ import Profile from "../../assets/home.jpg"
 import { Link } from 'react-router-dom';
 import {FaArrowRight} from "react-icons/fa";
 import "./home.css"
-const str = "As a React-based Website Developer, I thrive on blending innovation with a deadline-oriented approach. Codes aren't just a passion for me; they're a means of artistic expression through technology. \n My adept problem-solving skills drive me to tackle challenges with enthusiasm, while my penchant for competitive programming fuels my continuous growth. Proficient in Java and C, I embrace each day with boundless energy, eager to conquer fresh coding conundrums and expand my skills."
+const str = "As a React-based Website Developer, I thrive on blending innovation with a deadline-oriented approaches. Codes aren't just a passion for me; they're a means of artistic expression through technology. \n My adept problem-solving skills drive me to tackle challenges with enthusiasm, while my penchant for competitive programming fuels my continuous growth. Proficient in Java and C, I embrace each day with boundless energy, eager to conquer fresh coding conundrums and expand my skills."
 
 const Home = () => {
   return (
