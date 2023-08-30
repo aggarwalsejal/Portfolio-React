@@ -58,29 +58,78 @@ export const links = [
   },
 ];
 
+export const personalInfo = [
+  {
+    id: 1,
+    title: "First Name : ",
+    description: "Sejal",
+  },
+
+  {
+    id: 2,
+    title: "Last Name : ",
+    description: "Aggarwal",
+  },
+
+  {
+    id: 3,
+    title: "Age : ",
+    description: "23",
+  },
+
+  {
+    id: 4,
+    title: "Nationality : ",
+    description: "Indian",
+  },
+
+  {
+    id: 5,
+    title: "Address : ",
+    description: "Near Shiv Mandir, Sikandrabad, Dist. Bulandshahr, UP, 203205",
+  },
+
+  {
+    id: 6,
+    title: "Phone : ",
+    description: "+91 8384855065",
+  },
+
+  {
+    id: 7,
+    title: "Email : ",
+    description: "sejalaggarwal0@gmail.com",
+  },
+
+  {
+    id: 8,
+    title: "Langages : ",
+    description: "Hindi, English",
+  },
+];
 
 export const stats = [
   {
     id: 1,
     no: "1.5",
-    title: "Years of Experience in Cvent",
+    title: "Years of Experience",
   },
 
   {
     id: 2,
     no: "6+",
-    title: "Completed React and MERN Projects",
+    title: "React and MERN Projects Completed",
   },
 
   {
     id: 3,
     no: "2",
-    title: "ROCKSTAR Award (CVENT)",
+    title: "ROCKSTAR Award (CVENT) for excellent performance",
   },
   {
     id: 4,
     no: "530+",
-    title: " Data Structure & Algorithm Questions",
+    title: " Solved Data Structure & Algorithm Questions",
   },
 ];
 
@@ -92,6 +141,7 @@ export const resume = [
     year: "Jul 2022 - PRESENT",
     title: "Application Engineer",
     desc: "•Have received two Rockstar Awards for best performance in Cvent. •Addition to that, get a 5+ exceptional rating on the client ticket on providing quick resolution/workaround for solving the issues very quickly. •Have contributed to the project and bux fixing of the application. •Monitoring tools such as Datadogs, NewRelic, and Splunk were used to monitor production, troubleshoot 80+ bugs, and suggest code fixes. •Created DD synthesis to track performance of website and determine where the alert is coming from in order to easily diagnose the error. •Excelled at troubleshooting customer-specific issues by providing technical expertise and resolution to 700+ client tickets, as well as providing customer-specific data and reports using SQL, Postgres, and Couchbase data storages, as well as Code Level Troubleshooting to identify bugs and potential issues in the applicationʼs smooth operation. •Actively participated in the team building activities as well.",
+  
   },
   {
     id: 2,
@@ -136,7 +186,7 @@ export const skills = [
 
   {
     id: 2,
-    title: "Css",
+    title: "CSS",
     percentage: "89",
   },
 
@@ -148,7 +198,7 @@ export const skills = [
 
   {
     id: 4,
-    title: "React",
+    title: "React.js",
     percentage: "90",
   },
 
@@ -166,14 +216,54 @@ export const skills = [
 
   {
     id: 7,
-    title: "Angular",
-    percentage: "50",
+    title: "Tailwind",
+    percentage: "80",
   },
 
   {
     id: 8,
     title: "Next.js",
     percentage: "45",
+  },
+  {
+    id: 9,
+    title: "Github",
+    percentage: "90",
+  },
+  {
+    id: 10,
+    title: "Git",
+    percentage: "80",
+  },
+  {
+    id: 11,
+    title: "MySQL",
+    percentage: "90",
+  },
+  {
+    id: 12,
+    title: "Mongo DB",
+    percentage: "80",
+  },
+  {
+    id: 13,
+    title: "Jave",
+    percentage: "90",
+  },
+  {
+    id: 14,
+    title: "Python",
+    percentage: "80",
+  },
+  {
+    id: 15,
+    title: "Node.js",
+    percentage: "75",
+  },
+  {
+    id: 16,
+    title: "Datadog",
+    percentage: "60",
   },
 ];
 export const portfolio = [
