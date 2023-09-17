@@ -3,8 +3,7 @@ import Profile from "../../assets/home.jpg"
 import { Link } from 'react-router-dom';
 import {FaArrowRight} from "react-icons/fa";
 import "./home.css"
-const str = "As a React-based Website Developer, I thrive on blending innovation with a deadline-oriented approach. Codes aren't just a passion for me; they're a means of artistic expression through technology. \n My adept problem-solving skills drive me to tackle challenges with enthusiasm, while my penchant for competitive programming fuels my continuous growth. Proficient in Java and C, I embrace each day with boundless energy, eager to conquer fresh coding conundrums and expand my skills."
-
+const str = "Demonstrated expertise by resolving over 1k client tickets, offering technical solutions, and furnishing customer-specific data and reports using SQL, Postgres, Kibana, Elastic Search, and Couchbase data storages. Also, adept at Code Level Troubleshooting to identify potential issues in application operation. \n Utilized monitoring tools like Datadog, New Relic, Prometheus, Nagios, and Splunk to effectively monitor production, troubleshoot over 350+ bugs and recommend code fixes for enhanced reliability. \n Implemented DD synthesis to track website performance, pinpoint the source of alerts, and streamline error diagnosis. I've got hands-on experience in dealing with major incidents and client escalations."
 const Home = () => {
   return (
     <section className="home section grid">
@@ -12,7 +11,7 @@ const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span>I'm Sejal Aggarwal</span>   Web Developer
+            <span>I'm Sejal Aggarwal</span>   Application Support Engineer
           </h1>
           <p className="home__description">
             <span>
