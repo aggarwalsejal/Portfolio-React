@@ -74,7 +74,7 @@ export const personalInfo = [
   {
     id: 3,
     title: "Age : ",
-    description: "23",
+    description: "24",
   },
 
   {
@@ -111,7 +111,7 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: "1.5",
+    no: "3",
     title: "Years of Experience",
   },
 
@@ -123,7 +123,7 @@ export const stats = [
 
   {
     id: 3,
-    no: "2",
+    no: "4",
     title: "ROCKSTAR Award (CVENT) for excellent performance",
   },
   {
@@ -131,6 +131,16 @@ export const stats = [
     no: "530+",
     title: " Solved Data Structure & Algorithm Questions",
   },
+  {
+    id: 5,
+    no: "1",
+    title: " Pat on the Back Award",
+  },
+  {
+    id: 6,
+    no: "1",
+    title: " Quarterly Award",
+  }
 ];
 
 export const resume = [
