@@ -148,18 +148,18 @@ export const resume = [
     id: 1,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "Jul 2022 - PRESENT",
-    title: "Application Engineer",
-    desc: "•Have received two Rockstar Awards for best performance in Cvent. •Addition to that, get a 5+ exceptional rating on the client ticket on providing quick resolution/workaround for solving the issues very quickly. •Have contributed to the project and bux fixing of the application. •Monitoring tools such as Datadogs, NewRelic, and Splunk were used to monitor production, troubleshoot 80+ bugs, and suggest code fixes. •Created DD synthesis to track performance of website and determine where the alert is coming from in order to easily diagnose the error. •Excelled at troubleshooting customer-specific issues by providing technical expertise and resolution to 700+ client tickets, as well as providing customer-specific data and reports using SQL, Postgres, and Couchbase data storages, as well as Code Level Troubleshooting to identify bugs and potential issues in the applicationʼs smooth operation. •Actively participated in the team building activities as well.",
+    year: "Feb 2024 - PRESENT",
+    title: "Application Support Engineer 2",
+    desc: "Efficiently handled client support tickets via JIRA, resolving issues quickly while maintaining high customer satisfaction levels.Designed and implemented Datadog synthetics to monitor application performance, reducing manual checks and improving error detection accuracy.Utilized Splunk to monitor and analyze service logs, identifying and diagnosing errors, resulting in a 35% reduction in system errors.Managed AWS infrastructure (EC2, RDS, S3), ensuring scalability, reliability, and optimal performance of applications.Developed Python scripts to automate routine tasks, improving efficiency and reducing manual effort by 40%.Designed custom reports for clients using MySQL, MongoDB, and Couchbase to aggregate and analyze data, enhancing decision-making capabilities.Contributed to the creation of the Appsupport Toolbox 2.0, a dynamic application that streamlines ticket management and event monitoring. Leveraged React, Redux, and JavaScript to build a user-friendly interface and a comprehensive analytics dashboard.Supported application upgrades and migrations with minimal disruption, utilizing Datadog, Splunk, and AWS to ensure smooth transitions.Initiate incidents for service outages and actively contribute to minimizing downtime by coordinating swift resolution efforts.",
   
   },
   {
     id: 2,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "Jan 2022 - Jun 2022",
-    title: "Application Engineer Intern",
-    desc: "•Worked on Datadog, Elastic Search, NewRelic, Splunk, and Couchbase •Have expertise in Advanced SQL",
+    year: "Jan 2022 - Jan 2024",
+    title: "Application Support Engineer",
+    desc: "Manage and resolve client support tickets using JIRA, ensuring timely issue resolution and excellent client communication. Assist in monitoring application performance with tools like Datadog or AWS CloudWatch, detecting issues, and supporting troubleshooting.Resolve basic application issues, follow troubleshooting steps, and escalate complex problems to senior engineers. Ensure clear communication with clients, providing updates and confirming their issues are fully resolved.Document common troubleshooting steps and contribute to knowledge base development.Continuously improve technical skills in tools like AWS, Python, and SQL.",
   },
 
   {
