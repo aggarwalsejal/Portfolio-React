@@ -3,7 +3,7 @@ import Profile from "../../assets/home.jpg"
 import { Link } from 'react-router-dom';
 import {FaArrowRight} from "react-icons/fa";
 import "./home.css"
-const str = "As a React-based Website Developer, I thrive on blending innovation with a deadline-oriented approach. Codes aren’t just a passion for me; they’re a means of artistic expression through technology. \n My adept problem-solving skills drive me to tackle challenges with enthusiasm, while my penchant for competitive programming fuels my continuous growth. Proficient in Java and C, I embrace each day with boundless energy, eager to conquer fresh coding conundrums and expand my skills."
+const str = "Driven by a passion for data analysis and process automation, I bring hands-on expertise in Python, HTML, CSS, JavaScript, SQL, React, AWS, and Elasticsearch. In my product support role, I leverage these skills to troubleshoot, analyze, and deliver exceptional client support. A continuous learner with a growth mindset, I apply the same energy and discipline to both my professional and personal pursuits, always striving for improvement and excellence."
 const Home = () => {
   return (
     <section className="home section grid">
@@ -11,7 +11,7 @@ const Home = () => {
       <div className="home__content">
         <div className="home__data">
           <h1 className="home__title">
-            <span>I'm Sejal Aggarwal</span>   Software Engineer
+            <span>I'm Sejal Aggarwal</span>   Application Support Engineer
           </h1>
           <p className="home__description">
             <span>
